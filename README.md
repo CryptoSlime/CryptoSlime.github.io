@@ -1,0 +1,2 @@
+# CryptoSlime.github.io
+CrytoSlime!
