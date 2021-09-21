@@ -1,39 +1,6 @@
 # CryptoSlime.github.io
 CrytoSlime!
 
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@CryptoSlime
-devsharif /
-profilefilter
-Public
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-profilefilter/index.html
-@devsharif
-devsharif Font Added
-Latest commit 8f7d437 on Sep 18, 2019
-History
-1 contributor
-64 lines (59 sloc) 2.49 KB
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -99,18 +66,3 @@ History
 </body>
 </html>
 
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Loading complete
