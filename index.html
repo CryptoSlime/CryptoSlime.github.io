@@ -1,8 +1,57 @@
-<h1>hello</h1>
+<html>
+	<head>
+		<link rel = "stylesheet" type= "text/css" href = "style.css">
+		
+		<title>CryptoSlime Gallery</title>
+		<base href="https://www.w3schools.com/" target="_blank">
+	</head>
+	<body>
+		<h1>CryptoSlime Collection</h1>
 
-  <div class="toolbar mb2 mt2">
-    <button class="btn fil-cat active" href="" data-rel="all">All</button>
-    <button class="btn fil-cat" data-rel="phone">Phone</button>
-    <button class="btn fil-cat" data-rel="camera">Camera</button>
-    <button class="btn fil-cat" data-rel="others">Others</button>
-  </div> 
+
+		<div id="myBtnContainer">
+  			<button class="btn active" onclick="filterSelection('all')"> All</button>
+  			<button class="btn" onclick="filterSelection('simple')"> Simple</button>
+  			<button class="btn" onclick="filterSelection('rare')"> Rare</button>
+  			<button class="btn" onclick="filterSelection('super')"> Super Rare</button>
+		</div>
+
+		<div class = "gallery simple">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2"><a href="url">link text</a></div>
+		</div>
+		<div class = "gallery simple">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<div class = "gallery rare">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<div class = "gallery rare">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<div class = "gallery rare">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<div class = "gallery rare">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<div class = "gallery rare">
+			<img src = "sampleImage.gif">
+			<div class="des">Add a description</div>
+			<div class="des2">Add a description</div>
+		</div>
+		<script src="filter.js"></script> 
+		<script src="link.js"></script> 
+	</body>
+</html>
