@@ -1,0 +1,142 @@
+h1{
+ 	color: white;
+}
+
+h2{
+ 	color: orange;
+}
+
+p3{
+	color: white;
+	margin:5px 5px;
+}
+
+
+p2{
+ 	color: orange;
+}
+
+
+p{
+	color: white;
+	margin:5px 5px;
+}
+
+
+body {
+  background-color: 242526;
+}
+
+.padleft{
+	margin: 0% 1%;
+	height: 100%;
+	float: left;
+}
+
+.padtop{
+	margin: 0% 2%;
+	float: left;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding-right: 20px;
+  
+}
+
+.charContainer {
+  float: left;
+  width: 100%;
+  background-color: 18191A;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  background-color: 18191A;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+.column3 {
+  float: left;
+  padding-bottom: 5px;
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding: 5px;
+}
+
+.supporter{
+	float: left;
+	width: 20%;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: 18191A;
+}
+.supporter img {
+	border-radius: 10px;
+	transition: 0s;
+	padding: 2.5%;
+	width: 95%;
+}
+
+.gallery{
+ 	padding: 5px;
+	margin:5px 5px;
+ 	border-radius: 10px;
+  	float: left;
+	width: 11%;
+	background-color: 18191A;
+	display: none;
+}
+.gallery img {
+	border-radius: 10px;
+	transition: 0s;
+	padding: 2.5%;
+	width: 95%;
+}
+
+.show {
+  display: block;
+}
+
+.des {
+  padding: 0px;
+  text-align: center;
+  color: white;
+	font-size: 0.95vw;
+}
+
+.desS {
+  padding: 5px;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+.desR {
+  padding: 5px;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+.desSR {
+  padding: 5px;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
