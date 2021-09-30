@@ -12,3 +12,8 @@ function linkFunctionSR(num) {
   var x = document.getElementsByClassName("desSR")[num].id;
   window.open("https://www.nftexplorer.app/asset/" + x)
 }
+
+function linkFunctionL(num) {
+  var x = document.getElementsByClassName("desL")[num].id;
+  window.open("https://www.nftexplorer.app/asset/" + x)
+}
